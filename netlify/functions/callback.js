@@ -11,7 +11,7 @@ exports.handler = async function(event, context) {
   }
 
   const client_id = "5ebacc33660540008dcdaded2f82a2cd";
-  const client_secret = "4de4ee9270f468d9b8c4f158f66e497d"; // ⚠️ REEMPLAZAR si se ha rotado
+  const client_secret = "4de4ee9270f468d9b8c4f158f66e497d"; // ⚠️ Reemplazar si es rotado
 
   const auth = Buffer.from(`${client_id}:${client_secret}`).toString("base64");
 
